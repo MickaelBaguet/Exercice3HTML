@@ -7,12 +7,17 @@
   <body>
     <h1>Ma liste de course du 7 Mai 2016</h1>
     <p>Il me faut plusieurs chose :</p>
+    <!-- ul : liste non ordonné :  -->
+    <!-- Pour avoir plusieurs fois la même balise : <balise>*nombre puis TAB -->
     <ul>
       <li>Une baguette</li>
-      <li>2 <font style="color:red;">kilos</font> de tomates</li>
-      <li>3 <font style="color:green;">litres</font> de lait</li>
-      <li>5 <b>boites</b> de chewing gum</li>
+      <!-- Utiliser <span> à la place de <font> car ce dernier est obsolète ! -->
+      <li>2 <span style="color:red;">kilos</span> de tomates</li>
+      <li>3 <span style="color:green;">litres</span> de lait</li>
+      <!-- Ne pas mettre <b> car il marque un élément portant de l'attention ! -->
+      <li>5 <span style="font-weight: bold;">boites</span> de chewing gum</li>
     </ul>
-    <i>Payer en liquide ou par chèque.</i>
+    <!-- Ne pas mettre en italique avec <i> car il ne s'agit pas d'un morceau de texte -->
+    <p style="font-style: italic;">Payer en liquide ou par chèque.</p>
   </body>
 </html>
